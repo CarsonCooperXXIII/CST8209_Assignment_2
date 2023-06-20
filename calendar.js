@@ -1,3 +1,12 @@
+/*
+ * Student Name: Carson Cooper
+ * Student ID: 040633387
+ * Course: CST8209 - Web Programming I
+ * Semester: 1
+ * Assignment: 2
+ * Date Submitted: June 20, 2023
+ */
+
 // declare an object Calendar
 function Calendar(elem) {
   this.elem = elem;
@@ -135,15 +144,14 @@ for (const dayName of this.dayNames) {
   weekdayNameHeader.style.border = "1px solid #000";
   weekdayNameHeader.style.padding = "8px";
   weekdayNameHeader.style.textAlign = "center";
-
   weekdayNamesRow.appendChild(weekdayNameHeader);
 }
 
-// Append an additional row for the border
+// Append an additional row for the border -- CCs
 const weekdayBordersRow = document.createElement("tr");
 for (let i = 0; i < 7; i++) {
   const weekdayBorderCell = document.createElement("td");
-  weekdayBorderCell.style.border = "1px solid #000";
+  
   weekdayBordersRow.appendChild(weekdayBorderCell);
 }
 
