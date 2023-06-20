@@ -1,0 +1,24 @@
+#calendar, table {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:80%;
+}
+th {
+  border-style:solid;
+  border-width:1px;
+  margin:10px;
+  padding:10px;
+}
+.day {
+  border-style:solid;
+  border-width:1px;
+  margin:10px;
+  padding:10px;  
+}
+.today {
+  background-color:palegreen;
+}
+.weekend {
+  color:gray;
+}
